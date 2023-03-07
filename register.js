@@ -26,10 +26,11 @@ app.use(function (req, res, next) {
 
 // database connection 
 var con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'rideandcare'
+    host: 'b5q9z7ocd42vitdumw3d-mysql.services.clever-cloud.com',
+    user: 'uom93s6xwbrmt0kd',
+    password: 'sg3Ap90RUU3wLyTLNx0Q',
+    database: 'b5q9z7ocd42vitdumw3d',
+    port:3306
   });
   
   con.connect(function(err) {
