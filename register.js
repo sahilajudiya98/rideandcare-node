@@ -29,8 +29,8 @@ var con = mysql.createConnection({
     host: 'b5q9z7ocd42vitdumw3d-mysql.services.clever-cloud.com',
     user: 'uom93s6xwbrmt0kd',
     password: 'sg3Ap90RUU3wLyTLNx0Q',
-    database: 'b5q9z7ocd42vitdumw3d',
-    port:3306
+    database: 'b5q9z7ocd42vitdumw3d'
+
   });
   
   con.connect(function(err) {
@@ -39,7 +39,7 @@ var con = mysql.createConnection({
   });
 
 app.get('/', function(req, res) {
-  return "Ride and Care"
+  console.log("Ride and Care")
 })
 
   // select user form database
