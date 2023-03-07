@@ -37,7 +37,9 @@ var con = mysql.createConnection({
     console.log("Connected!");
   });
 
-
+app.get('/', function(req, res) {
+  return "Ride and Care"
+})
 
   // select user form database
   app.post('/users',function(req,res) {
