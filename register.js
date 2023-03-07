@@ -26,8 +26,8 @@ app.use(function (req, res, next) {
 
 // database connection 
 var con = mysql.createConnection({
-    host: '%',
-    user: 'liveDB',
+    host: 'localhost',
+    user: 'root',
     password: '',
     database: 'rideandcare'
   });
